@@ -7225,12 +7225,12 @@ $(window).load(function () {
             })
         }
         document.oncontextmenu = function () {
-            return false
+            return true
         };
         $(document).keydown(function (e) {
             e = window.event || e || e.which;
             if (e.keyCode == 123) {
-                return false
+                return true
             }
         });
         var ping = null;
