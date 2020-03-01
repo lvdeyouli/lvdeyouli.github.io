@@ -7255,13 +7255,13 @@ $(window).load(function () {
         // } else {
         //     $('.Ws-tou').find('img').attr('src', '../source/images/-Anti-stealing-link=img&path=me1.jpg')
         // }
-        var Wjn = [{"color": "#1abc9c", "text": "BootStrap"}, {"color": "#e74c3c", "text": "CSS3"}, {
+        var Wjn = [{"color": "#1abc9c", "text": "javascript"}, {"color": "#e74c3c", "text": "CSS3"}, {
             "color": "#34495e",
             "text": "HTML5"
-        }, {"color": "#3498db", "text": "JQUERY"}, {"color": "#d35400", "text": "javascript"}, {
+        }, {"color": "#d35400", "text": "Vue"}, {
             "color": "#9b59b6",
-            "text": "Vue"
-        }];
+            "text": "小程序、快应用"
+        }, {"color": "#3498db", "text": "JQUERY"}];
         $('.Ws-tu').find('.Ws-PHOTOSHOP').each(function (index) {
             $(this).find('em').text(Wjn[index].text);
             $(this).find('.Ws-ph .Ws-ph-f').css('background', Wjn[index].color);
